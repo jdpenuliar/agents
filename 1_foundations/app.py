@@ -76,8 +76,15 @@ tools = [{"type": "function", "function": record_user_details_json},
 class Me:
 
     def __init__(self):
-        self.openai = OpenAI()
-        self.name = "Ed Donner"
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            raise RuntimeError(
+                "OPENAI_API_KEY is missing. Locally, set it in .env or your shell. "
+                "On Hugging Face Spaces / Gradio deploy: Space (or app) Settings → "
+                "Variables and secrets → add a secret named OPENAI_API_KEY."
+            )
+        self.openai = OpenAI(api_key=api_key)
+        self.name = "JD Penuliar"
         reader = PdfReader("me/linkedin.pdf")
         self.linkedin = ""
         for page in reader.pages:
@@ -117,6 +124,7 @@ If the user is engaging in discussion, try to steer them towards getting in touc
         done = False
         while not done:
             response = self.openai.chat.completions.create(model="gpt-4o-mini", messages=messages, tools=tools)
+            push(f"Finish reason: {response.choices[0].finish_reason}")
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls

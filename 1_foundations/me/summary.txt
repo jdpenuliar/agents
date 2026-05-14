@@ -1,2 +1,111 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+Joseph Donn Penuliar
+Software Engineer at Meta · Ads Placement & Delivery Systems · AI-Driven Impact · 6+ Years
+Exceeds Expectations
+About
+I'm a software engineer at Meta with over six years of consistently high performance building ads
+infrastructure that reaches millions of advertisers worldwide.
+My core expertise is in ads placement systems — from architecting PAC2.0 (Placement Asset
+Customization), which introduces granular media-level controls and reactive ad-level behaviors to unlock
+inventory and boost distribution efficiency, to owning the full lifecycle of placement features across related
+media, bundle placements, and soft opt-out integrations.
+I thrive at the intersection of end-to-end ownership, technical depth, and cross-functional direction. I've
+convinced product and engineering partners to adopt new technologies (Andromeda, PAC2.0), led reliability
+improvements that closed hundreds of high-visibility issues, and leveraged GenAI to influence over 24,000
+lines of code — improving test coverage, identifying future bugs, and simplifying complex systems.
+Beyond individual contribution, I care deeply about engineering culture: mentoring engineers through
+performance improvements, onboarding new hires, running structured reviews, and building the team habits
+that compound over time.
+Outside of Meta, I run Kastzer — a multi-vertical LLC where I ship software products, consult on technical
+architecture, and build across software, skincare, coffee, and real estate.
+Skills: React · GraphQL · Relay · PHP/Hack · C++ · Andromeda · AI/GenAI tooling · Ads systems · System
+design · Swift · Kotlin · Convex
+Experience
+Meta 2019 – Present
+Software Engineer · Ads Placement & Delivery Systems
+Led end-to-end engineering for Meta's ads placement infrastructure, spanning PAC2.0, bundle placements,
+creative quality, and reporting systems.
+H2 2025 — PAC2.0 & Multimedia Placements
+• Delivered PAC2.0 code-complete with minimal bugs, on time — evolving placement controls into a
+media-first model with granular reactive controls projected at 0.015% iRev in H1 2026.
+• Absorbed scope from a reassigned engineer during Multi Media integration, shipping related media
+placements, media picker integration, and consistency verification using the CAL framework.
+• Reduced bundle placement error rates from 52,414 to 14,956 and achieved 100% launch.
+• Deleted 2,247 lines of heavily intertwined legacy code; ranked 2nd on diffs pushed on team insights.
+• GenAI influenced 24,010 of 39,722 lines of code written, accelerating E2E test case writing, function
+simplification, and anomaly detection.
+• Prototyped a Metamate agent running IDD recommendations, merging into Confucius in 2026.
+H1 2025 — Creative Quality & Placement Optimization
+• Led context switch from L1 placements to C++ performance work, validating a 0.38% stat-sig Sanitized
+Ads Value gain from relaxing the VideoDurationMatcher.
+• Delivered Ads Bulk Edit surface for placement controls supporting migration away from L2.
+• Planned Andromeda migration for the placement stack, reducing dependency on complex Laminar data
+fetching.
+H2 2024 — Placement Creative Quality & Workbench
+• Onboarded and launched alpha creative quality placement controls (L2→L1 migration) in a short ramp,
+running usability sessions with 10 advertisers — 50% wanted the feature across all accounts.
+• Drove workbench reporting to 99% monthly success rate; SoV geo granularity shipped at 10% with
+$104M theoretical iRev potential.
+• Reduced hardcoded unix names from 43 instances to zero; increased test coverage saving 30
+engineering hours.
+H1 2024 — Infrastructure & Reliability
+• Delivered two versions of Reach & Frequency reporting achieving 99.99% success rate while cutting
+processing time from ~1 hour to ~10 minutes and saving ~500TB of storage.
+• Resolved a CentOS9 migration SEV that was breaking the full reporting system.
+• Implemented data validation across Insights Home and SoV geo granularity.
+H2 2023 — Workbench & RnF Infra
+• Improved RnF data fetching efficiency by 99%+ (85.57 DIRCU → 0.76 DIRCU) and restored 100%
+success rate on report generation.
+• Closed 367 ad-hoc support tasks in 2 months for the Workbench Tribe.
+H1 2023 — Diagnostics & Cross-Org Tooling
+• Drove iPay (IDD Payments Diagnostics) to 12.3% unblocked revenue rate with ~3.5k MAU.
+• Helped design PDComponents, influencing ~100 diffs across five pods and setting the foundation for
+unified tooling across the BPE suite.
+• BranDi (Brand Diagnostics) maintained at 17.2% revenue unblock rate across 1,474 accounts.
+2022 — BranDi & Recommendations Framework
+• BranDi generated a 5% revenue lift (~$1.1M/year) in L90 data.
+• Designed and implemented the IDD Recommendations framework, later adopted by two additional
+tools (BranDi, UCD) and influencing org-wide direction for diagnostics recommendations.
+• Achieved ≥70% attainment on common components initiative, setting standards adopted across 4–6
+tools.
+2021 — BranDi Launch & UCD
+• Shipped BranDi v1 to all global sales users (CSMs, CPs); UCD enabled Tier 1 support to handle 11,647
+cases in H2 alone.
+• Led Relay 3D adoption, reducing IDD's code download from 5.7MB to 3.7MB.
+• Achieved 5–6x IDD load time improvement (18.4s → 1.4s) via InternalFBEntrypoint, deferred loading,
+and React Suspense.
+2019–2020 — IDD Foundation & UBD
+• Led IDDv2 root query architecture, enabling 50%+ MAU growth (3.74k → 5.3k) and doubling entities
+searched.
+• Built iSnap integration used by 2,000+ monthly users to bring transparency to ad reviews.
+• Co-developed Consentify, a scalable permission-gating solution for EntBusiness/EntAdAccount access.
+• Onboarded 10+ engineers; conducted 27+ interviews; consistently ranked top reviewer for team diffs.
+Kastzer 2023 – Present
+Founder · Software Engineering, Skincare, Coffee & Real Estate
+Kastzer is a multi-vertical LLC built on a single standard of craft — engineering the future, nurturing the
+present. Each practice runs as its own studio: custom software, premium skincare formulations, specialty
+coffee, and real estate advisory. I lead product and engineering across all four verticals, shipping productiongrade systems and building the operating infrastructure that holds the company together.
+Software Engineering
+Custom software, mobile apps, AI integrations, and developer tools built for teams that ship. Embedding with
+founders, writing code we'd want to maintain, and staying accountable to outcomes.
+BrewNote · Cross-platform coffee companion app
+• Built a full-stack mobile app with a real-time Convex backend (brewnote_convex) powering sync, data
+persistence, and serverless functions.
+• Native iOS client (brewnote_ios) built with Swift — optimized for smooth UX and offline capability.
+• Native Android client (brewnote_android) built with Kotlin — feature-parity with iOS across core brewing
+workflows.
+• Enables users to log, rate, and track brew sessions with detailed tasting notes and recipe management.
+github.com/kastzer/brewnote_convex
+github.com/kastzer/brewnote_ios
+github.com/kastzer/brewnote_android
+Uarchive · Archive & content management platform
+• Personal archive and content management system built under the Kastzer engineering practice.
+• Designed for long-horizon storage, retrieval, and organization of media, documents, and records.
+github.com/kastzer/Uarchive
+Other Practices
+• Skincare: Premium clinically-informed formulations built on modern dermatological science with full
+ingredient transparency.
+• Coffee: Specialty sourcing and small-batch roasting; café consulting on sourcing, equipment, and bar
+workflow.
+• Real Estate: Residential and commercial advisory grounded in long-horizon thinking, plus property
+management tooling.
+kastzer.com
