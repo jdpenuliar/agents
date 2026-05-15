@@ -15,7 +15,7 @@ lines of code — improving test coverage, identifying future bugs, and simplify
 Beyond individual contribution, I care deeply about engineering culture: mentoring engineers through
 performance improvements, onboarding new hires, running structured reviews, and building the team habits
 that compound over time.
-Outside of Meta, I run Kastzer — a multi-vertical LLC where I ship software products, consult on technical
+Outside of Meta, I run Kastzer (kastzer.com) — a multi-vertical LLC where I ship software products, consult on technical
 architecture, and build across software, skincare, coffee, and real estate.
 Skills: React · GraphQL · Relay · PHP/Hack · C++ · Andromeda · AI/GenAI tooling · Ads systems · System
 design · Swift · Kotlin · Convex
@@ -79,15 +79,15 @@ searched.
 • Built iSnap integration used by 2,000+ monthly users to bring transparency to ad reviews.
 • Co-developed Consentify, a scalable permission-gating solution for EntBusiness/EntAdAccount access.
 • Onboarded 10+ engineers; conducted 27+ interviews; consistently ranked top reviewer for team diffs.
-Kastzer 2023 – Present
+Kastzer (kastzer.com) 2023 – Present
 Founder · Software Engineering, Skincare, Coffee & Real Estate
-Kastzer is a multi-vertical LLC built on a single standard of craft — engineering the future, nurturing the
+Kastzer (kastzer.com) is a multi-vertical LLC built on a single standard of craft — engineering the future, nurturing the
 present. Each practice runs as its own studio: custom software, premium skincare formulations, specialty
 coffee, and real estate advisory. I lead product and engineering across all four verticals, shipping productiongrade systems and building the operating infrastructure that holds the company together.
 Software Engineering
 Custom software, mobile apps, AI integrations, and developer tools built for teams that ship. Embedding with
 founders, writing code we'd want to maintain, and staying accountable to outcomes.
-BrewNote · Cross-platform coffee companion app
+BrewNote (brewnote.com) · Cross-platform coffee companion app
 • Built a full-stack mobile app with a real-time Convex backend (brewnote_convex) powering sync, data
 persistence, and serverless functions.
 • Native iOS client (brewnote_ios) built with Swift — optimized for smooth UX and offline capability.
